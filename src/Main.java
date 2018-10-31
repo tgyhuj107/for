@@ -51,32 +51,36 @@ public class Main {
 //            }
 //        }
         //04
-        int n=scn.nextInt(),k=n/2;
-        boolean flag =true;
-        for (int i=2;i<=k;i++){
-            if (n%i==0){//不是質數
-                flag=false;
-            }
-        }
-        if (flag==true){
-            System.out.println("Yes");
-        }else {
-            System.out.println("No");
-        }
+//        int n=scn.nextInt(),k=n/2;
+//        boolean flag =true;
+//        for (int i=2;i<=k;i++){
+//            if (n%i==0){//不是質數
+//                flag=false;
+//            }
+//        }
+//        if (flag==true){
+//            System.out.println("Yes");
+//        }else {
+//            System.out.println("No");
+//        }
         //05
 //        int n =scn.nextInt();
-//        float max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
+//        float max=Float.MIN_VALUE,min=Float.MAX_VALUE;
 //        for (int i =1;i<=n;i++){
 //            float f=scn.nextFloat();
-//            if (f>max){
-//                max=f;
-//            }
-//            if (f<min){
-//                min=f;
-//            }
+//            max=Math.max(f,max);
+//            min=Math.min(f,min);
+////            if (f>max){
+////                max=f;
+////            }
+////            if (f<min){
+////                min=f;
+////            }
 //        }
 //        System.out.println(max);
 //        System.out.println(min);
+
+
         //06
 //        int n =scn.nextInt(),sum=0,a=0;
 //        for (int i =1;i<=n;i++){
